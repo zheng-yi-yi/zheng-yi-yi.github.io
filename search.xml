@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>leetcode_2317</title>
+      <link href="/2024/01/17/leetcode-2317/"/>
+      <url>/2024/01/17/leetcode-2317/</url>
+      
+        <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p><a href="https://leetcode.cn/problems/maximum-xor-after-operations/">2317. 操作后的最大异或和 - 力扣（LeetCode）</a></p><p>给你一个下标从 <strong>0</strong> 开始的整数数组 <code>nums</code> 。一次操作中，选择 <strong>任意</strong> 非负整数 <code>x</code> 和一个下标 <code>i</code> ，<strong>更新</strong> <code>nums[i]</code> 为 <code>nums[i] AND (nums[i] XOR x)</code> 。</p><p>注意，<code>AND</code> 是逐位与运算，<code>XOR</code> 是逐位异或运算。</p><p>请你执行 <strong>任意次</strong> 更新操作，并返回 <code>nums</code> 中所有元素 <strong>最大</strong> 逐位异或和。</p><p><strong>示例 1：</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">输入：nums = [3,2,4,6]</span><br><span class="line">输出：7</span><br><span class="line">解释：选择 x = 4 和 i = 3 进行操作，num[3] = 6 AND (6 XOR 4) = 6 AND 2 = 2 。</span><br><span class="line">现在，nums = [3, 2, 4, 2] 且所有元素逐位异或得到 3 XOR 2 XOR 4 XOR 2 = 7 。</span><br><span class="line">可知 7 是能得到的最大逐位异或和。</span><br><span class="line">注意，其他操作可能也能得到逐位异或和 7 。</span><br></pre></td></tr></table></figure><p><strong>示例 2：</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">输入：nums = [1,2,3,9,2]</span><br><span class="line">输出：11</span><br><span class="line">解释：执行 0 次操作。</span><br><span class="line">所有元素的逐位异或和为 1 XOR 2 XOR 3 XOR 9 XOR 2 = 11 。</span><br><span class="line">可知 11 是能得到的最大逐位异或和。</span><br></pre></td></tr></table></figure><p><strong>提示：</strong></p><ul><li><code>1 &lt;= nums.length &lt;= 10^5</code></li><li><code>0 &lt;= nums[i] &lt;= 10^8</code></li></ul><hr><h1 id="解题"><a href="#解题" class="headerlink" title="解题"></a>解题</h1><p>这道题有点脑筋急转弯的感觉。</p><p>要想获得<strong>最大逐位异或和</strong>（我们设为<code>ans</code>），就必须尽可能的保留更多异或后的1的个数。</p><p>我们再来看这个运算操作：<code>nums[i] AND (nums[i] XOR x)</code></p><p>实际上：</p><ul><li><code>nums[i] XOR x</code>等同于将<code>nums[i]</code>修改为任意非负整数。</li><li><code>num[i] AND ???</code> 等同于修改<code>nums[i]</code>的某些比特位（由1修改为0）</li></ul><p>由于我们想要<strong>尽可能的保留更多异或后的1的个数</strong>。因此必须使得二进制位上<code>1</code>的个数要是奇数。因此<code>nums[i] AND (nums[i] XOR x)</code>操作就是将某些比特位上的<code>1</code>修改为<code>0</code>，从而使得该位上的<code>1</code>是奇数个，最终异或结果里该位上才是<code>1</code>。</p><p>因此我们发现，这道题目要求的最大逐位异或和，实际上等价于对数组中每个元素的所有二进制位，只要某一位在数组中出现过 <code>1</code>，那么答案里这一位也是 <code>1</code>，得到的结果才达到最大。</p><p>因此我们可以用逐位<strong>或</strong>运算来尽最大努力保留每一位上的<code>1</code>。</p><p>代码很简单：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span> <span class="title function_">maximumXOR</span><span class="params">(<span class="type">int</span>[] nums)</span> &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">ans</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i : nums) &#123;</span><br><span class="line">            ans = i | ans;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 刷题 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 位运算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>位运算</title>
       <link href="/2024/01/16/dsa-01-Bit-operations/"/>
       <url>/2024/01/16/dsa-01-Bit-operations/</url>
