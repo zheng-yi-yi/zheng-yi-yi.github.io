@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>找到两个数组的前缀公共数组</title>
+      <link href="/2024/01/18/leetcode-2657/"/>
+      <url>/2024/01/18/leetcode-2657/</url>
+      
+        <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p><a href="https://leetcode.cn/problems/find-the-prefix-common-array-of-two-arrays/description/">2657. 找到两个数组的前缀公共数组 - 力扣（LeetCode）</a></p><p>给你两个下标从 <strong>0</strong> 开始长度为 <code>n</code> 的整数排列 <code>A</code> 和 <code>B</code> 。</p><p><code>A</code> 和 <code>B</code> 的 <strong>前缀公共数组</strong> 定义为数组 <code>C</code> ，其中 <code>C[i]</code> 是数组 <code>A</code> 和 <code>B</code> 到下标为 <code>i</code> 之前公共元素的数目。</p><p>请你返回 <code>A</code> 和 <code>B</code> 的 <strong>前缀公共数组</strong> 。</p><p>如果一个长度为 <code>n</code> 的数组包含 <code>1</code> 到 <code>n</code> 的元素恰好一次，我们称这个数组是一个长度为 <code>n</code> 的 <strong>排列</strong> 。</p><p><strong>示例 1：</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">输入：A = [1,3,2,4], B = [3,1,2,4]</span><br><span class="line">输出：[0,2,3,4]</span><br><span class="line">解释：i = 0：没有公共元素，所以 C[0] = 0 。</span><br><span class="line">i = 1：1 和 3 是两个数组的前缀公共元素，所以 C[1] = 2 。</span><br><span class="line">i = 2：1，2 和 3 是两个数组的前缀公共元素，所以 C[2] = 3 。</span><br><span class="line">i = 3：1，2，3 和 4 是两个数组的前缀公共元素，所以 C[3] = 4 。</span><br></pre></td></tr></table></figure><p><strong>示例 2：</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">输入：A = [2,3,1], B = [3,1,2]</span><br><span class="line">输出：[0,1,3]</span><br><span class="line">解释：i = 0：没有公共元素，所以 C[0] = 0 。</span><br><span class="line">i = 1：只有 3 是公共元素，所以 C[1] = 1 。</span><br><span class="line">i = 2：1，2 和 3 是两个数组的前缀公共元素，所以 C[2] = 3 。</span><br></pre></td></tr></table></figure><p><strong>提示：</strong></p><ul><li><code>1 &lt;= A.length == B.length == n &lt;= 50</code></li><li><code>1 &lt;= A[i], B[i] &lt;= n</code></li><li>题目保证 <code>A</code> 和 <code>B</code> 两个数组都是 <code>n</code> 个元素的排列。</li></ul><h1 id="解题"><a href="#解题" class="headerlink" title="解题"></a>解题</h1><p>首先我们观察到，两个数组都分别是整数<code>1</code>到<code>n</code>的排列（数组中各元素互不相同）。</p><p>解题思路：</p><p>设所求数组为<code>ans</code></p><p>从左到右遍历数组A和B，在每轮循环中：</p><ul><li>将<code>A[i]</code>和<code>B[i]</code>分别放入集合<code>A</code>以及集合<code>B</code></li><li>接着计算两个集合中相同元素的个数，将这个值赋给<code>ans[i]</code></li></ul><p>最后返回<code>ans</code>即可。</p><p>这里由于数组<code>A</code>和<code>B</code>的长度都不超过<code>50</code>，因此我们可以用位运算来优化操作。</p><p>用<code>mask</code>二进制位上的<code>1</code>和<code>0</code>来表示元素是否存在集合中，用 <code>&amp;</code> 运算求出集合的交集，最后按照二进制位中<code>1</code>的个数来表示交集元素的数目。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="type">int</span>[] findThePrefixCommonArray(<span class="type">int</span>[] A, <span class="type">int</span>[] B) &#123;</span><br><span class="line">        <span class="type">int</span> <span class="variable">len</span> <span class="operator">=</span> A.length;</span><br><span class="line">        <span class="type">long</span> <span class="variable">maska</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="type">long</span> <span class="variable">maskb</span> <span class="operator">=</span> <span class="number">0</span>;</span><br><span class="line">        <span class="type">int</span>[] ans = <span class="keyword">new</span> <span class="title class_">int</span>[len];</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i&lt;len; i++) &#123;</span><br><span class="line">            <span class="comment">// 将元素所在的位置加入集合mask中</span></span><br><span class="line">            maska |= (<span class="number">1L</span> &lt;&lt; A[i]);</span><br><span class="line">            maskb |= (<span class="number">1L</span> &lt;&lt; B[i]);</span><br><span class="line"><span class="comment">// 求出两个集合的交集，并且数出1的数量</span></span><br><span class="line">            ans[i] = Long.bitCount(maska &amp; maskb);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 刷题 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 位运算 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使数组异或和等于 K 的最少操作次数</title>
       <link href="/2024/01/17/leetcode-2997/"/>
       <url>/2024/01/17/leetcode-2997/</url>
