@@ -1,0 +1,36 @@
+# dependency package
+node_modules/
+dist/
+.temp/
+.cache/
+
+# VitePress-specific build output
+docs/.vitepress/dist
+docs/.vitepress/cache
+docs/.vitepress/.temp
+
+# log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# editor-related
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS temporary files
+.DS_Store
+Thumbs.db
+
+# environment variables (in case you use API keys later)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
