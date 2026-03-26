@@ -1,4 +1,4 @@
-This post walks through how I use VitePress and Github to build my own personal blog.
+# Getting Started
 
 ## Setup
 
