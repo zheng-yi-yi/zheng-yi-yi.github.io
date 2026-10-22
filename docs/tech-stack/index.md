@@ -4,17 +4,20 @@ As a Full-Stack Engineer working on Large-scale Industrial Internal Systems, I l
 
 ## Backend Architecture
 
-- **Architecture**: Microservices (Multi-service workspace)
-- **Framework**: [ABP Framework](https://abp.io/) (v8.1.1)
+- **Architecture**: Domain-Driven Design (DDD), Microservices (Multi-service workspace)
+- **Multi-tenancy & Permissions**: Multi-tenant SaaS design, Role-Based Access Control (RBAC)
+- **Framework**: [ABP Framework](https://abp.io/)
 - **Runtime**: [.NET 8](https://dotnet.microsoft.com/)
 - **Database**: [PostgreSQL](https://www.postgresql.org/) (via Entity Framework Core)
 - **Cache & Data Protection**: [Redis](https://redis.io/) (StackExchange.Redis)
 - **Messaging**: [Kafka](https://kafka.apache.org/) (Volo.Abp.EventBus.Kafka)
+- **Data Platform**: [Snowflake](https://www.snowflake.com/)
 - **Identity & Security**: OpenIddict, JWT Bearer
 - **Testing**: [xUnit](https://xunit.net/?tabs=cs), [Shouldly](https://docs.shouldly.org/), [NSubstitute](https://nsubstitute.github.io/)
 
 ## Frontend Development
-- **Framework**: [Angular](https://angular.io/) (v17.1)
+- **Framework**: [Angular](https://angular.dev/), [TypeScript](https://www.typescriptlang.org/)
+- **Architecture**: [Micro Frontend](https://micro-frontends.org/)
 - **State Management**: [NGXS](https://www.ngxs.io/)
 - **Mobile Solution**: [Capacitor](https://capacitorjs.com/) (Cross-platform support)
 - **Real-time**: [SignalR](https://dotnet.microsoft.com/en-us/apps/aspnet/signalr)
@@ -24,12 +27,16 @@ As a Full-Stack Engineer working on Large-scale Industrial Internal Systems, I l
 
 ## DevOps & Infrastructure
 - **Containerization**: [Docker](https://www.docker.com/), [Buildah](https://buildah.io/)
-- **CI/CD**: [GitLab CI/CD](https://docs.gitlab.com/ci/)
-- **Orchestration**: [Kubernetes (K8s)](https://kubernetes.io/)
+- **Cloud**: [AWS](https://aws.amazon.com/) (RDS, S3, CloudFront), [Azure](https://azure.microsoft.com/)
+- **CI/CD**: [GitLab CI/CD](https://docs.gitlab.com/ci/), [Azure DevOps](https://azure.microsoft.com/products/devops)
+- **Delivery**: [GitOps](https://opengitops.dev/), release management
+- **Orchestration**: [Kubernetes (K8s)](https://kubernetes.io/), [Amazon EKS](https://aws.amazon.com/eks/)
 - **K8s Management**: [Kuboard](https://kuboard.cn/)
 - **VCS**: Internal GitLab
+- **Project Management**: [JIRA](https://www.atlassian.com/software/jira)
 - **Observability**: [OpenTelemetry](https://opentelemetry.io/), [OpenObserve](https://openobserve.ai/)
-- **Monitoring**: [Grafana](https://grafana.com/)
+- **Monitoring**: [Grafana](https://grafana.com/), [Prometheus](https://prometheus.io/), [Loki](https://grafana.com/oss/loki/), [Tempo](https://grafana.com/oss/tempo/)
+- **Production Support**: Troubleshooting & Root Cause Analysis (RCA)
 - **OS**: [Linux (Ubuntu/CentOS)](https://www.linux.org/)
 
 ## Productivity & AI

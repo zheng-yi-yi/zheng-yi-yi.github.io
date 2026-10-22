@@ -28,4 +28,4 @@ Observations on life and code. Built with [VitePress](https://vitepress.dev/).
 
 This site is automatically deployed to GitHub Pages using GitHub Actions on every push to the `main` branch.
 
-Check out the tutorial: [How to use VitePress](docs/how-to-use-vitepress.md)
+Check out the tutorial: [How to use VitePress](docs/guides/vitepress/how-to-use-vitepress.md)

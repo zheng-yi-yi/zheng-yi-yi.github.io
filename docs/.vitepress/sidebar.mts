@@ -1,9 +1,9 @@
 export const sidebar = {
   '/projects/': [
     {
-      text: 'Experience at Molex',
+      text: 'Work Experience',
       items: [
-        { text: 'Mosaic', link: '/projects/ufe-mosaic' }
+        { text: 'Enterprise Platform', link: '/projects/enterprise-platform' }
       ]
     }
   ],
