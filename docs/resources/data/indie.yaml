@@ -1,0 +1,36 @@
+# 出海
+- group: 选词与调研
+  items:
+    - { name: Google Trends, url: https://trends.google.com, desc: 查看关键词搜索热度，辅助选品选词, tags: [选词, 免费] }
+    - { name: Ahrefs, url: https://ahrefs.com, desc: 关键词、外链与竞品分析, tags: [seo, 付费] }
+    - { name: Semrush, url: https://www.semrush.com, desc: SEO 与竞品流量分析, tags: [seo, 付费] }
+    - { name: Similarweb, url: https://www.similarweb.com, desc: 查看网站流量来源与排名, tags: [流量, 竞品] }
+    - { name: Exploding Topics, url: https://explodingtopics.com, desc: 发现正在上升的趋势话题, tags: [趋势, 选题] }
+    - { name: Product Hunt, url: https://www.producthunt.com, desc: 新产品发布与发现社区, tags: [发布, 灵感] }
+    - { name: Indie Hackers, url: https://www.indiehackers.com, desc: 独立开发者收入与经验分享, tags: [社区, 独立开发] }
+    - { name: Hacker News, url: https://news.ycombinator.com, desc: 技术创业社区，可发 Show HN, tags: [社区, 发布] }
+    - { name: TrustMRR, url: https://trustmrr.com, desc: 经过验证的独立产品收入榜, tags: [收入, 灵感] }
+- group: SEO 与统计
+  items:
+    - { name: Google Search Console, url: https://search.google.com/search-console, desc: 提交 sitemap、查看收录与搜索表现, tags: [seo, 免费] }
+    - { name: Bing Webmaster, url: https://www.bing.com/webmasters, desc: 必应站长工具, tags: [seo, 免费] }
+    - { name: Google Analytics, url: https://analytics.google.com, desc: 网站流量统计, tags: [统计, 免费] }
+    - { name: Plausible, url: https://plausible.io, desc: 轻量、注重隐私的统计, tags: [统计, 开源] }
+    - { name: Umami, url: https://umami.is, desc: 可自建的开源网站统计, tags: [统计, 开源] }
+    - { name: PageSpeed Insights, url: https://pagespeed.web.dev, desc: 页面性能与 Core Web Vitals, tags: [性能, 免费] }
+- group: 支付与变现
+  items:
+    - { name: Stripe, url: https://stripe.com, desc: 全球在线支付与订阅, tags: [支付, 订阅] }
+    - { name: Lemon Squeezy, url: https://www.lemonsqueezy.com, desc: 代缴税的数字产品收款, tags: [支付, mor] }
+    - { name: Paddle, url: https://www.paddle.com, desc: SaaS 收款与税务处理, tags: [支付, mor] }
+    - { name: Creem, url: https://www.creem.io, desc: 面向独立开发者的收款平台, tags: [支付, mor] }
+    - { name: Gumroad, url: https://gumroad.com, desc: 卖电子书、模板等数字商品, tags: [数字商品, 支付] }
+    - { name: Google AdSense, url: https://adsense.google.com, desc: 网站广告变现, tags: [广告, 变现] }
+- group: 建站与运营
+  items:
+    - { name: Namecheap, url: https://www.namecheap.com, desc: 域名注册, tags: [域名] }
+    - { name: Cloudflare Registrar, url: https://www.cloudflare.com/products/registrar, desc: 成本价域名注册, tags: [域名, 低价] }
+    - { name: Resend, url: https://resend.com, desc: 开发者友好的邮件发送 API, tags: [邮件, api] }
+    - { name: Tally, url: https://tally.so, desc: 免费好用的表单工具, tags: [表单, 免费] }
+    - { name: Crisp, url: https://crisp.chat, desc: 网站在线客服, tags: [客服] }
+    - { name: Termly, url: https://termly.io, desc: 生成隐私政策与服务条款, tags: [合规, 法律] }

@@ -1,0 +1,34 @@
+# 设计
+- group: 画图
+  items:
+    - { name: Excalidraw, url: https://excalidraw.com, desc: 手绘风白板，画架构图, tags: [画图, 免费] }
+    - { name: draw.io, url: https://app.diagrams.net, desc: 免费的流程图与架构图工具, tags: [画图, 免费] }
+    - { name: tldraw, url: https://www.tldraw.com, desc: 简洁的在线白板, tags: [画图, 免费] }
+    - { name: Mermaid Live, url: https://mermaid.live, desc: 用文本写流程图、时序图, tags: [画图, 文本] }
+    - { name: Figma, url: https://www.figma.com, desc: 协作式 UI 设计工具, tags: [ui, 协作] }
+    - { name: Canva, url: https://www.canva.com, desc: 海报、封面、社媒图模板, tags: [模板, 封面] }
+- group: 图标
+  items:
+    - { name: Iconify, url: https://icon-sets.iconify.design, desc: 聚合大量开源图标库, tags: [图标, 免费] }
+    - { name: Lucide, url: https://lucide.dev, desc: 本站使用的线性图标库, tags: [图标, 开源] }
+    - { name: Heroicons, url: https://heroicons.com, desc: Tailwind 团队出品的图标, tags: [图标, 开源] }
+    - { name: Tabler Icons, url: https://tabler.io/icons, desc: 数千个统一风格的线性图标, tags: [图标, 开源] }
+    - { name: Simple Icons, url: https://simpleicons.org, desc: 各大品牌 Logo 的 SVG 图标, tags: [图标, 品牌] }
+    - { name: iconfont, url: https://www.iconfont.cn, desc: 阿里巴巴矢量图标库, tags: [图标, 中文] }
+- group: 配色与字体
+  items:
+    - { name: Coolors, url: https://coolors.co, desc: 快速生成配色方案, tags: [配色, 免费] }
+    - { name: Realtime Colors, url: https://www.realtimecolors.com, desc: 在真实页面上预览配色, tags: [配色, 免费] }
+    - { name: UI Colors, url: https://uicolors.app, desc: 生成 Tailwind 色阶, tags: [配色, tailwind] }
+    - { name: Google Fonts, url: https://fonts.google.com, desc: 免费开源 Web 字体, tags: [字体, 免费] }
+    - { name: 字体天下, url: https://www.fonts.net.cn, desc: 中文字体下载, tags: [字体, 中文] }
+- group: 素材与灵感
+  items:
+    - { name: Unsplash, url: https://unsplash.com, desc: 免费高质量图片, tags: [图片, 免费] }
+    - { name: Pexels, url: https://www.pexels.com, desc: 免费图片与视频素材, tags: [图片, 视频] }
+    - { name: unDraw, url: https://undraw.co, desc: 可改色的开源插画, tags: [插画, 免费] }
+    - { name: Dribbble, url: https://dribbble.com, desc: 设计师作品灵感, tags: [灵感, ui] }
+    - { name: Mobbin, url: https://mobbin.com, desc: 真实 App 界面截图库, tags: [灵感, ui] }
+    - { name: Land-book, url: https://land-book.com, desc: 优秀落地页合集, tags: [灵感, 落地页] }
+    - { name: TinyPNG, url: https://tinypng.com, desc: 图片无损压缩, tags: [压缩, 免费] }
+    - { name: Remove.bg, url: https://www.remove.bg, desc: 一键抠图去背景, tags: [抠图, ai] }

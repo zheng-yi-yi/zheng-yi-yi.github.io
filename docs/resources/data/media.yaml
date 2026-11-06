@@ -1,0 +1,27 @@
+# 自媒体
+- group: 平台后台
+  items:
+    - { name: 微信公众平台, url: https://mp.weixin.qq.com, desc: 公众号后台, tags: [公众号] }
+    - { name: 抖音创作者中心, url: https://creator.douyin.com, desc: 抖音作品发布与数据分析, tags: [抖音] }
+    - { name: 抖音开放平台, url: https://developer.open-douyin.com, desc: 抖音小游戏、小程序开发文档, tags: [抖音, 小游戏] }
+    - { name: 小红书创作服务, url: https://creator.xiaohongshu.com, desc: 小红书笔记发布与数据, tags: [小红书] }
+    - { name: B 站创作中心, url: https://member.bilibili.com, desc: B 站投稿与数据, tags: [b站] }
+    - { name: 视频号助手, url: https://channels.weixin.qq.com, desc: 微信视频号管理后台, tags: [视频号] }
+    - { name: 知乎创作中心, url: https://www.zhihu.com/creator, desc: 知乎内容与数据管理, tags: [知乎] }
+    - { name: YouTube Studio, url: https://studio.youtube.com, desc: YouTube 频道管理, tags: [youtube, 出海] }
+- group: 排版与编辑
+  items:
+    - { name: 秀米, url: https://xiumi.us, desc: 公众号图文排版, tags: [公众号, 排版] }
+    - { name: 135 编辑器, url: https://www.135editor.com, desc: 公众号排版样式库, tags: [公众号, 排版] }
+    - { name: mdnice, url: https://editor.mdnice.com, desc: Markdown 转公众号排版, tags: [markdown, 排版] }
+    - { name: 稿定设计, url: https://www.gaoding.com, desc: 封面、海报模板, tags: [封面, 模板] }
+    - { name: 剪映, url: https://www.capcut.cn, desc: 视频剪辑与自动字幕, tags: [剪辑, 字幕] }
+    - { name: CapCut, url: https://www.capcut.com, desc: 剪映国际版, tags: [剪辑, 出海] }
+- group: 数据与选题
+  items:
+    - { name: 新榜, url: https://www.newrank.cn, desc: 自媒体榜单与数据分析, tags: [数据, 榜单] }
+    - { name: 蝉妈妈, url: https://www.chanmama.com, desc: 抖音数据分析, tags: [抖音, 数据] }
+    - { name: 千瓜数据, url: https://www.qian-gua.com, desc: 小红书数据分析, tags: [小红书, 数据] }
+    - { name: 巨量算数, url: https://trendinsight.oceanengine.com, desc: 抖音关键词与热点趋势, tags: [抖音, 趋势] }
+    - { name: 微信指数, url: https://index.weixin.qq.com, desc: 微信内关键词热度（小程序）, tags: [公众号, 趋势] }
+    - { name: 今日热榜, url: https://tophub.today, desc: 聚合各平台热搜榜, tags: [热点, 聚合] }

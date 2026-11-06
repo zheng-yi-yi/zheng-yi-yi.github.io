@@ -1,30 +1,37 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: 首页
+description: 翼翼的笔记：记录一下学到的知识，还有日常收集的工具与资源。
 
 hero:
-  name: "Zheng, Yiyi"
-  text: "Full-Stack Engineer"
-  tagline: "Building multi-tenant enterprise platforms with .NET, ABP and Angular — delivered on cloud-native infrastructure with end-to-end observability."
+  name: 翼翼的笔记
+  tagline: 记录一下学到的知识，还有日常收集的工具与资源
   actions:
     - theme: brand
-      text: Explore Tech Stack
-      link: /tech-stack/
+      text: 资源导航
+      link: /resources/
     - theme: alt
-      text: My Projects
-      link: /projects/enterprise-platform
+      text: 按标签浏览
+      link: /tags
 
 features:
-  - title: Enterprise Platform
-    details: Multi-tenant enterprise platform built on .NET Core, ABP.IO and Angular, following DDD, microservices and micro-frontend architecture.
-  - title: Release & Delivery
-    details: GitLab CI / DevOps pipelines, GitOps workflows and release management for reliable, repeatable delivery.
-  - title: Cloud Native
-    details: Running workloads on AWS EKS / Kubernetes, backed by RDS, S3 and CloudFront.
-  - title: Observability
-    details: Full-stack observability with OpenTelemetry, Grafana, Prometheus, Loki and OpenObserve.
-  - title: Production Support & Security
-    details: Production troubleshooting and root cause analysis (RCA), plus multi-tenancy and RBAC permission design to keep the platform stable and secure.
-  - title: AI-assisted Development
-    details: Leveraging AI tools like GitHub Copilot and Claude Code to accelerate development and improve code quality.
+  - title: 后端
+    details: 语言、框架、数据库、中间件
+    link: /backend/
+  - title: 前端
+    details: JS/TS、框架、工程化
+    link: /frontend/
+  - title: 网络
+    details: 计算机网络概念、协议、排查
+    link: /network/
+  - title: DevOps
+    details: K8s、GitLab CI/CD、Docker
+    link: /devops/
+  - title: AI Agent
+    details: Skill、Harness、记忆等 AI Agent 相关知识
+    link: /ai/
+  - title: 出海
+    details: 出海建站、变现
+    link: /indie/
 ---
+

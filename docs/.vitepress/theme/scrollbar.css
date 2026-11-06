@@ -1,0 +1,50 @@
+/**
+ * 全局滚动条：细、轻、圆角，颜色跟随主题（亮 / 暗）
+ * 覆盖页面、侧边栏、资源导航目录、悬浮目录面板、代码块、表格、搜索弹窗等所有滚动区域
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --kb-scrollbar-size: 8px;
+  --kb-scrollbar-thumb: rgba(60, 60, 67, .18);
+  --kb-scrollbar-thumb-hover: rgba(60, 60, 67, .36);
+}
+.dark {
+  --kb-scrollbar-thumb: rgba(235, 235, 245, .16);
+  --kb-scrollbar-thumb-hover: rgba(235, 235, 245, .32);
+}
+
+/* 标准属性：Firefox、Chrome 121+ */
+@supports not selector(::-webkit-scrollbar) {
+  * { scrollbar-width: thin; scrollbar-color: var(--kb-scrollbar-thumb) transparent; }
+}
+
+/* WebKit / Blink：Chrome、Edge、Safari */
+::-webkit-scrollbar { width: var(--kb-scrollbar-size); height: var(--kb-scrollbar-size); }
+::-webkit-scrollbar-track, ::-webkit-scrollbar-corner { background: transparent; }
+::-webkit-scrollbar-thumb {
+  border: 2px solid transparent; border-radius: 999px;
+  background: var(--kb-scrollbar-thumb); background-clip: padding-box;
+}
+::-webkit-scrollbar-thumb:hover { background-color: var(--kb-scrollbar-thumb-hover); }
+::-webkit-scrollbar-thumb:active { background-color: var(--kb-scrollbar-thumb-hover); }
+::-webkit-scrollbar-button { display: none; width: 0; height: 0; }
+
+/* 小面板（侧边栏、资源目录、悬浮目录）：更细，平时几乎隐形，悬停时显现 */
+.VPSidebar, .rn-side, .ftoc-panel, .ftoc-sheet, .VPLocalSearchBox .results {
+  --kb-scrollbar-size: 6px;
+}
+@media (hover: hover) {
+  .VPSidebar::-webkit-scrollbar-thumb, .rn-side::-webkit-scrollbar-thumb, .ftoc-panel::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  .VPSidebar:hover::-webkit-scrollbar-thumb, .rn-side:hover::-webkit-scrollbar-thumb, .ftoc-panel:hover::-webkit-scrollbar-thumb {
+    background-color: var(--kb-scrollbar-thumb);
+  }
+  .VPSidebar:hover::-webkit-scrollbar-thumb:hover, .rn-side:hover::-webkit-scrollbar-thumb:hover,
+  .ftoc-panel:hover::-webkit-scrollbar-thumb:hover {
+    background-color: var(--kb-scrollbar-thumb-hover);
+  }
+}
+
+/* 横向滚动区（代码块、表格、移动端分类条）：更矮 */
+.vp-doc div[class*='language-'] pre, .vp-doc table, .rn-side nav { --kb-scrollbar-size: 6px; }

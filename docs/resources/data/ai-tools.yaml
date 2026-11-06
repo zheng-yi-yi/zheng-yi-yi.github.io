@@ -1,0 +1,39 @@
+# AI 工具
+- group: 对话与模型
+  items:
+    - { name: ChatGPT, url: https://chatgpt.com, desc: OpenAI 的对话助手, tags: [大模型, 对话] }
+    - { name: Claude, url: https://claude.ai, desc: Anthropic 的对话助手，长文本与代码能力强, tags: [大模型, 对话] }
+    - { name: Gemini, url: https://gemini.google.com, desc: Google 的多模态对话助手, tags: [大模型, 对话] }
+    - { name: DeepSeek, url: https://www.deepseek.com, desc: 国产大模型，API 价格低, tags: [大模型, api] }
+    - { name: Kimi, url: https://kimi.moonshot.cn, desc: 月之暗面的长上下文助手, tags: [大模型, 对话] }
+    - { name: 通义千问, url: https://tongyi.aliyun.com, desc: 阿里的大模型助手, tags: [大模型, 对话] }
+    - { name: Perplexity, url: https://www.perplexity.ai, desc: 带引用来源的 AI 搜索, tags: [搜索, 对话] }
+    - { name: OpenRouter, url: https://openrouter.ai, desc: 一个 API 调用多家模型, tags: [api, 聚合] }
+- group: AI 编程
+  items:
+    - { name: Claude Code, url: https://docs.anthropic.com/en/docs/claude-code/overview, desc: Anthropic 的终端 AI 编程 Agent, tags: [ai-agent, 编程] }
+    - { name: Codex, url: https://openai.com/codex, desc: OpenAI 的编程 Agent, tags: [ai-agent, 编程] }
+    - { name: Cursor, url: https://cursor.com, desc: AI 原生代码编辑器, tags: [编辑器, 编程] }
+    - { name: GitHub Copilot, url: https://github.com/features/copilot, desc: GitHub 的 AI 编程助手, tags: [编程, 补全] }
+    - { name: Windsurf, url: https://windsurf.com, desc: 带 Agent 能力的 AI 编辑器, tags: [编辑器, 编程] }
+    - { name: v0, url: https://v0.dev, desc: 用自然语言生成 React 界面, tags: [前端, 生成] }
+    - { name: Bolt.new, url: https://bolt.new, desc: 浏览器里用 AI 生成并运行全栈应用, tags: [全栈, 生成] }
+    - { name: Lovable, url: https://lovable.dev, desc: 对话式生成 Web 应用, tags: [全栈, 生成] }
+- group: Agent 与开发框架
+  items:
+    - { name: Anthropic Docs, url: https://docs.anthropic.com, desc: Claude API、工具调用、Agent 文档, tags: [文档, ai-agent] }
+    - { name: Model Context Protocol, url: https://modelcontextprotocol.io, desc: MCP 协议：让模型连接外部工具与数据, tags: [mcp, 协议] }
+    - { name: LangChain, url: https://www.langchain.com, desc: LLM 应用开发框架, tags: [框架, ai-agent] }
+    - { name: LangGraph, url: https://www.langchain.com/langgraph, desc: 有状态多步骤 Agent 编排, tags: [框架, ai-agent] }
+    - { name: Dify, url: https://dify.ai, desc: 开源 LLM 应用与工作流平台, tags: [开源, 工作流] }
+    - { name: Coze, url: https://www.coze.cn, desc: 字节的零代码 Bot 搭建平台, tags: [bot, 零代码] }
+    - { name: Hugging Face, url: https://huggingface.co, desc: 开源模型、数据集与 Demo 社区, tags: [模型, 开源] }
+    - { name: Ollama, url: https://ollama.com, desc: 在本地运行开源大模型, tags: [本地, 开源] }
+- group: 图像与多媒体
+  items:
+    - { name: Midjourney, url: https://www.midjourney.com, desc: 高质量 AI 绘画, tags: [绘画, 付费] }
+    - { name: Ideogram, url: https://ideogram.ai, desc: 擅长生成带文字的图片, tags: [绘画, 文字] }
+    - { name: Runway, url: https://runwayml.com, desc: AI 视频生成与编辑, tags: [视频, 生成] }
+    - { name: 可灵, url: https://klingai.kuaishou.com, desc: 快手的 AI 视频生成, tags: [视频, 生成] }
+    - { name: ElevenLabs, url: https://elevenlabs.io, desc: 逼真的 AI 配音与声音克隆, tags: [语音, 配音] }
+    - { name: Suno, url: https://suno.com, desc: AI 生成歌曲, tags: [音乐, 生成] }

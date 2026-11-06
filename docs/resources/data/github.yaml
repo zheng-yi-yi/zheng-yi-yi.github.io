@@ -1,0 +1,27 @@
+# GitHub 项目：desc 写"它解决什么问题"
+- group: 趋势与发现
+  items:
+    - { name: GitHub Trending, url: https://github.com/trending, desc: GitHub 每日热门项目入口, tags: [趋势] }
+    - { name: OSS Insight, url: https://ossinsight.io, desc: 开源项目数据分析与排行, tags: [趋势, 数据] }
+    - { name: Star History, url: https://star-history.com, desc: 查看仓库 Star 增长曲线, tags: [趋势, 数据] }
+    - { name: HelloGitHub, url: https://hellogithub.com, desc: 每月推荐有趣的开源项目, tags: [推荐, 中文] }
+    - { name: awesome, url: https://github.com/sindresorhus/awesome, desc: 各领域 awesome 清单的总入口, tags: [清单] }
+    - { name: free-for-dev, url: https://github.com/ripienaar/free-for-dev, desc: 对开发者免费的 SaaS 服务清单, tags: [清单, 免费] }
+- group: AI 与 Agent
+  items:
+    - { name: anthropics/skills, url: https://github.com/anthropics/skills, desc: Anthropic 官方 Agent Skills 示例, tags: [skill, ai-agent] }
+    - { name: MCP Servers, url: https://github.com/modelcontextprotocol/servers, desc: 官方与社区 MCP Server 合集, tags: [mcp, ai-agent] }
+    - { name: Open WebUI, url: https://github.com/open-webui/open-webui, desc: 自建类 ChatGPT 界面，支持本地模型, tags: [自建, ui] }
+    - { name: Mem0, url: https://github.com/mem0ai/mem0, desc: 给 AI Agent 加长期记忆, tags: [记忆, ai-agent] }
+    - { name: browser-use, url: https://github.com/browser-use/browser-use, desc: 让 AI Agent 操作浏览器, tags: [浏览器, ai-agent] }
+    - { name: n8n, url: https://github.com/n8n-io/n8n, desc: 可自建的工作流自动化，支持 AI 节点, tags: [自动化, 开源] }
+- group: 开发与效率
+  items:
+    - { name: vitepress, url: https://github.com/vuejs/vitepress, desc: 用 Markdown 快速搭建文档站，本站就基于它, tags: [文档, vue] }
+    - { name: shadcn/ui, url: https://github.com/shadcn-ui/ui, desc: 可复制进项目的 React 组件, tags: [组件, react] }
+    - { name: excalidraw, url: https://github.com/excalidraw/excalidraw, desc: 开源手绘风白板, tags: [画图, 开源] }
+    - { name: uptime-kuma, url: https://github.com/louislam/uptime-kuma, desc: 自建的服务可用性监控, tags: [监控, 自建] }
+    - { name: lazygit, url: https://github.com/jesseduffield/lazygit, desc: 终端里的 Git 图形界面, tags: [git, 终端] }
+    - { name: k9s, url: https://github.com/derailed/k9s, desc: 终端里管理 K8s 集群, tags: [k8s, 终端] }
+    - { name: the-art-of-command-line, url: https://github.com/jlevy/the-art-of-command-line, desc: 命令行技巧大全, tags: [shell, 学习] }
+    - { name: system-design-primer, url: https://github.com/donnemartin/system-design-primer, desc: 系统设计学习资料, tags: [系统设计, 学习] }

@@ -1,0 +1,36 @@
+# 开发工具
+- group: 在线调试
+  items:
+    - { name: Regex101, url: https://regex101.com, desc: 正则表达式在线测试与解释, tags: [正则, 免费] }
+    - { name: JSON Crack, url: https://jsoncrack.com, desc: 把 JSON 可视化成节点图, tags: [json, 免费] }
+    - { name: JSON Formatter, url: https://jsonformatter.org, desc: JSON 格式化、校验与压缩, tags: [json, 免费] }
+    - { name: Crontab Guru, url: https://crontab.guru, desc: Cron 表达式解释与校验, tags: [cron, 免费] }
+    - { name: jwt.io, url: https://jwt.io, desc: JWT 解码与签名校验, tags: [jwt, 免费] }
+    - { name: Transform, url: https://transform.tools, desc: JSON 转 TS 类型、YAML、Go struct 等, tags: [转换, 免费] }
+    - { name: CyberChef, url: https://gchq.github.io/CyberChef, desc: 编码、加解密、哈希的瑞士军刀, tags: [编码, 免费] }
+    - { name: Diffchecker, url: https://www.diffchecker.com, desc: 在线文本对比, tags: [diff, 免费] }
+    - { name: Hoppscotch, url: https://hoppscotch.io, desc: 开源在线 API 调试工具, tags: [api, 开源] }
+    - { name: Webhook.site, url: https://webhook.site, desc: 临时接收并查看 Webhook 请求, tags: [调试, 免费] }
+    - { name: Carbon, url: https://carbon.now.sh, desc: 把代码生成好看的截图, tags: [截图, 免费] }
+- group: 文档与学习
+  items:
+    - { name: MDN, url: https://developer.mozilla.org, desc: Web 标准权威文档, tags: [前端, 文档] }
+    - { name: DevDocs, url: https://devdocs.io, desc: 聚合多种语言与框架的离线文档, tags: [文档, 免费] }
+    - { name: Can I use, url: https://caniuse.com, desc: 查询浏览器特性兼容性, tags: [前端, 兼容性] }
+    - { name: Roadmap.sh, url: https://roadmap.sh, desc: 各技术方向的学习路线图, tags: [学习, 路线] }
+    - { name: Explain Shell, url: https://explainshell.com, desc: 逐段解释 Shell 命令, tags: [shell, 免费] }
+    - { name: TLDR Pages, url: https://tldr.sh, desc: 命令行工具的简明用法示例, tags: [shell, 速查] }
+    - { name: Refactoring Guru, url: https://refactoring.guru, desc: 设计模式与重构图解, tags: [设计模式, 学习] }
+    - { name: Visualgo, url: https://visualgo.net, desc: 数据结构与算法可视化, tags: [算法, 学习] }
+- group: 部署与运维
+  items:
+    - { name: Vercel, url: https://vercel.com, desc: 前端与全栈应用托管, tags: [部署, 免费额度] }
+    - { name: Netlify, url: https://www.netlify.com, desc: 静态站点托管与表单、函数, tags: [部署, 免费额度] }
+    - { name: Cloudflare, url: https://www.cloudflare.com, desc: CDN、DNS、Workers、Pages, tags: [cdn, 免费额度] }
+    - { name: Railway, url: https://railway.app, desc: 一键部署后端服务与数据库, tags: [部署, paas] }
+    - { name: Supabase, url: https://supabase.com, desc: 开源 Firebase 替代：Postgres + 认证 + 存储, tags: [数据库, baas] }
+    - { name: Neon, url: https://neon.tech, desc: Serverless Postgres, tags: [数据库, serverless] }
+    - { name: Upstash, url: https://upstash.com, desc: Serverless Redis 与消息队列, tags: [redis, serverless] }
+    - { name: Docker Hub, url: https://hub.docker.com, desc: 官方容器镜像仓库, tags: [docker, 镜像] }
+    - { name: Artifact Hub, url: https://artifacthub.io, desc: 查找 Helm Chart 等 K8s 制品, tags: [k8s, helm] }
+    - { name: UptimeRobot, url: https://uptimerobot.com, desc: 网站可用性监控与告警, tags: [监控, 免费额度] }
