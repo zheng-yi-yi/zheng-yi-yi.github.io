@@ -1,0 +1,39 @@
+# 数据可视化
+- group: JavaScript 图表库
+  items:
+    - { name: D3.js, url: https://d3js.org, desc: 最强大的 JavaScript 数据可视化库, tags: [js, 开源] }
+    - { name: Chart.js, url: https://www.chartjs.org, desc: 简洁灵活的 JavaScript 图表库, tags: [js, 开源] }
+    - { name: Three.js, url: https://threejs.org, desc: JavaScript 3D 渲染库, tags: [js, 3d] }
+    - { name: Plotly, url: https://plotly.com, desc: Python/JS 交互式图表库与分析平台, tags: [js, python] }
+    - { name: FusionCharts, url: https://www.fusioncharts.com, desc: 商业 JavaScript 图表库，100+ 图表类型, tags: [js, 商业] }
+    - { name: Google Charts, url: https://developers.google.com/chart, desc: Google 免费交互式图表工具, tags: [js, 免费] }
+    - { name: Vega, url: https://vega.github.io/vega/, desc: 声明式可视化语法，用 JSON 描述图表, tags: [js, 语法] }
+- group: Python 图表库
+  items:
+    - { name: Matplotlib, url: https://matplotlib.org, desc: Python 最经典的数据可视化库, tags: [python, 开源] }
+    - { name: pyecharts, url: https://pyecharts.org, desc: Python 版 ECharts 可视化库, tags: [python, 开源] }
+    - { name: Bokeh, url: https://bokeh.org, desc: Python 交互式数据可视化库, tags: [python, 开源] }
+    - { name: ggplot2, url: https://ggplot2.tidyverse.org, desc: R 语言图形语法可视化库, tags: [r, 开源] }
+- group: BI 与数据分析平台
+  items:
+    - { name: Tableau, url: https://www.tableau.com, desc: 商业 BI 与数据可视化平台, tags: [bi, 商业] }
+    - { name: Power BI, url: https://www.microsoft.com/en-us/power-platform/products/power-bi, desc: 微软商业智能与数据可视化平台, tags: [bi, 商业] }
+    - { name: Looker Studio, url: https://lookerstudio.google.com, desc: Google 免费 BI 仪表盘工具, tags: [bi, 免费] }
+    - { name: DataEase, url: https://dataease.io, desc: 人人可用的开源 BI 工具, tags: [bi, 开源] }
+    - { name: 网易有数, url: https://youdata.netease.com, desc: 网易敏捷 BI 与数据可视化分析平台, tags: [bi, 国产] }
+    - { name: Exploratory, url: https://exploratory.io, desc: AI 驱动的数据分析工作流平台, tags: [分析, ai] }
+- group: 网络与图谱可视化
+  items:
+    - { name: Gephi, url: https://gephi.org, desc: 开源网络/图谱可视化与分析软件, tags: [网络, 开源] }
+    - { name: Cytoscape, url: https://cytoscape.org, desc: 开源复杂网络分析与可视化平台, tags: [网络, 生物] }
+    - { name: Neo4j, url: https://neo4j.com, desc: 图数据库与知识图谱可视化平台, tags: [图数据库, 知识图谱] }
+- group: 3D 与地理可视化
+  items:
+    - { name: kepler.gl, url: https://kepler.gl, desc: 地理空间大数据可视化分析工具, tags: [地理, 开源] }
+    - { name: 3D Slicer, url: https://www.slicer.org, desc: 开源医学 3D 图像可视化与处理平台, tags: [医学, 3d] }
+    - { name: Processing, url: https://processing.org, desc: 面向艺术家和设计师的创意编程语言, tags: [创意编程, 开源] }
+- group: 专业与辅助工具
+  items:
+    - { name: Mathematica, url: https://www.wolfram.com/mathematica/, desc: Wolfram 技术计算平台，含强大可视化能力, tags: [计算, 商业] }
+    - { name: Netron, url: https://netron.app, desc: 神经网络模型结构可视化工具, tags: [ai, 模型] }
+    - { name: Charticulator, url: https://charticulator.com, desc: 微软研究院的交互式图表设计工具, tags: [图表设计, 微软] }

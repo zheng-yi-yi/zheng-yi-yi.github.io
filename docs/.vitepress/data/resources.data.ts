@@ -34,6 +34,7 @@ export { data }
 const categoryOrder: { file: string; title: string; icon: string }[] = [
   { file: 'dev-tools', title: '开发工具', icon: 'wrench' },
   { file: 'ai-tools', title: 'AI 工具', icon: 'bot' },
+  { file: 'data-viz', title: '数据可视化', icon: 'chart-column-increasing' },
   { file: 'design', title: '设计', icon: 'palette' },
   { file: 'indie', title: '出海', icon: 'globe' },
   { file: 'media', title: '自媒体', icon: 'smartphone' },

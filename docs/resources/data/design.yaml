@@ -32,3 +32,12 @@
     - { name: Land-book, url: https://land-book.com, desc: 优秀落地页合集, tags: [灵感, 落地页] }
     - { name: TinyPNG, url: https://tinypng.com, desc: 图片无损压缩, tags: [压缩, 免费] }
     - { name: Remove.bg, url: https://www.remove.bg, desc: 一键抠图去背景, tags: [抠图, ai] }
+- group: 网页设计灵感
+  items:
+    - { name: Awwwards, url: https://www.awwwards.com, desc: 全球顶尖网页设计评奖与作品集, tags: [灵感, 评奖] }
+    - { name: CSS Design Awards, url: https://www.cssdesignawards.com, desc: 网页设计与开发评奖, tags: [灵感, 评奖] }
+    - { name: Codrops, url: https://tympanus.net/codrops, desc: 前端动效教程与创意 Demo, tags: [动效, 教程] }
+    - { name: GSAP Showcase, url: https://gsap.com/showcase, desc: 使用 GSAP 动画的优秀网站合集, tags: [动效, 灵感] }
+    - { name: Hover States, url: https://www.hoverstat.es, desc: 前沿交互与动效网站精选, tags: [动效, 灵感] }
+    - { name: CSS Nectar, url: https://cssnectar.com, desc: 网页设计灵感画廊, tags: [灵感, 画廊] }
+    - { name: Hello Monday, url: https://www.hellomonday.com, desc: 创意数字工作室，作品可作参考, tags: [灵感, 工作室] }

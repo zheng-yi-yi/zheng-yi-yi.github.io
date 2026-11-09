@@ -9,6 +9,8 @@
     - { name: 通义千问, url: https://tongyi.aliyun.com, desc: 阿里的大模型助手, tags: [大模型, 对话] }
     - { name: Perplexity, url: https://www.perplexity.ai, desc: 带引用来源的 AI 搜索, tags: [搜索, 对话] }
     - { name: OpenRouter, url: https://openrouter.ai, desc: 一个 API 调用多家模型, tags: [api, 聚合] }
+    - { name: Genspark, url: "https://www.genspark.ai/", desc: "一站式 AI 智能工作空间", tags: [Agent, 办公] }
+    - { name: Napkin AI, url: "https://app.napkin.ai/", desc: "文字一键生成可视化图解", tags: [图解, 可视化, PPT] }
 - group: AI 编程
   items:
     - { name: Claude Code, url: https://docs.anthropic.com/en/docs/claude-code/overview, desc: Anthropic 的终端 AI 编程 Agent, tags: [ai-agent, 编程] }
@@ -37,3 +39,8 @@
     - { name: 可灵, url: https://klingai.kuaishou.com, desc: 快手的 AI 视频生成, tags: [视频, 生成] }
     - { name: ElevenLabs, url: https://elevenlabs.io, desc: 逼真的 AI 配音与声音克隆, tags: [语音, 配音] }
     - { name: Suno, url: https://suno.com, desc: AI 生成歌曲, tags: [音乐, 生成] }
+- group: 学习与社区
+  items:
+    - { name: WaytoAGI, url: https://www.waytoagi.com, desc: 通往 AGI 之路, tags: [导航, 社区] }
+    - { name: Datawhale, url: "https://www.datawhale.cn/home", desc: "AI 开源学习与共学社区", tags: [AI学习, 开源, 课程] }
+    - { name: 智源社区, url: "https://hub.baai.ac.cn/", desc: "AI 前沿研究与学术社区", tags: [AI科研, 论文, 学术] }
