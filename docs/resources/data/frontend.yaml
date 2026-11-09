@@ -1,0 +1,79 @@
+# 前端开发：框架、组件库与常用插件
+- group: 语言与构建
+  items:
+    - { name: TypeScript 中文网, url: https://www.tslang.cn/docs/home.html, desc: TypeScript 中文文档, tags: [typescript, 中文] }
+    - { name: Vite 中文网, url: https://vitejs.cn, desc: 下一代前端构建工具, tags: [构建, 中文] }
+    - { name: Vitest, url: https://vitest.dev, desc: 基于 Vite 的单元测试框架, tags: [测试, vite] }
+    - { name: Sass 中文网, url: https://www.sass.hk, desc: CSS 预处理器 Sass 的中文文档, tags: [css, 中文] }
+    - { name: Axios 中文网, url: http://www.axios-js.com, desc: 基于 Promise 的 HTTP 请求库, tags: [http, 中文] }
+    - { name: StackBlitz, url: https://stackblitz.com, desc: 浏览器内的全栈在线 IDE，适合分享 Demo, tags: [沙箱, 免费额度] }
+
+- group: Vue 生态
+  items:
+    - { name: Vue.js 中文文档, url: https://cn.vuejs.org/guide/introduction.html, desc: Vue 3 官方中文指南, tags: [vue, 文档] }
+    - { name: Vue Playground, url: https://play.vuejs.org, desc: Vue 官方在线练习场, tags: [vue, 沙箱] }
+    - { name: Vue Router, url: https://router.vuejs.org/zh/guide, desc: Vue 官方路由, tags: [vue, 路由] }
+    - { name: Pinia, url: https://pinia.vuejs.org/zh/introduction.html, desc: Vue 官方推荐的状态管理, tags: [vue, 状态管理] }
+    - { name: VueUse, url: https://vueuse.org, desc: Vue 组合式函数工具集, tags: [vue, 工具库] }
+    - { name: Nuxt, url: https://nuxt.com, desc: 基于 Vue 的全栈框架，支持 SSR 与静态生成, tags: [vue, ssr] }
+    - { name: Element Plus, url: https://element-plus.org/zh-CN/component/overview.html, desc: 面向 Vue 3 的桌面端组件库, tags: [vue, 组件库] }
+    - { name: Vuetify, url: https://vuetifyjs.com/zh-Hans/introduction/why-vuetify, desc: Material Design 风格的 Vue 组件库, tags: [vue, 组件库] }
+    - { name: Naive UI, url: https://www.naiveui.com/zh-CN/os-theme, desc: TypeScript 编写的 Vue 3 组件库, tags: [vue, 组件库] }
+
+- group: React 生态
+  items:
+    - { name: React 中文文档, url: https://zh-hans.react.dev, desc: React 官方中文文档, tags: [react, 文档] }
+    - { name: React Router, url: https://reactrouter.com, desc: React 官方生态中最常用的路由库, tags: [react, 路由] }
+    - { name: Next.js, url: https://nextjs.org, desc: 基于 React 的全栈框架, tags: [react, ssr] }
+    - { name: TanStack Query, url: https://tanstack.com/query, desc: 请求缓存与服务端状态管理, tags: [react, 数据请求] }
+    - { name: Ant Design, url: https://ant.design/index-cn, desc: 企业级 React 组件库, tags: [react, 组件库] }
+    - { name: Arco Design, url: https://arco.design, desc: 字节跳动出品的企业级设计系统, tags: [组件库, 设计系统] }
+    - { name: shadcn/ui, url: https://ui.shadcn.com, desc: 可复制进项目的 React + Tailwind 组件, tags: [react, tailwind] }
+
+- group: Angular 生态
+  items:
+    - { name: Angular 中文网, url: https://angular.cn, desc: Angular 官方中文文档, tags: [angular, 文档] }
+    - { name: RxJS, url: https://rxjs.dev, desc: 响应式编程库，Angular 的核心依赖, tags: [angular, rxjs] }
+    - { name: RxMarbles, url: https://rxmarbles.com, desc: 用弹珠图交互式理解 RxJS 操作符, tags: [rxjs, 学习] }
+    - { name: NgRx, url: https://ngrx.io, desc: 基于 RxJS 的 Angular 状态管理, tags: [angular, 状态管理] }
+    - { name: Angular Material, url: https://material.angular.io/components/categories, desc: Angular 官方 Material Design 组件库, tags: [angular, 组件库] }
+    - { name: NG-ZORRO, url: https://ng.ant.design/docs/introduce/zh, desc: Ant Design 的 Angular 实现, tags: [angular, 组件库] }
+    - { name: ng-bootstrap, url: https://ng-bootstrap.github.io/#/components/datepicker/overview, desc: 用 Angular 重写的 Bootstrap 组件, tags: [angular, bootstrap] }
+    - { name: ngx-bootstrap, url: https://valor-software.com/ngx-bootstrap/components, desc: Bootstrap 的另一套 Angular 组件, tags: [angular, bootstrap] }
+    - { name: ng-select, url: https://ng-select.github.io/ng-select#/data-sources, desc: Angular 下拉选择与多选组件, tags: [angular, 表单] }
+    - { name: ngx-toastr, url: https://ngx-toastr.vercel.app, desc: Angular 消息提示（Toast）组件, tags: [angular, 提示] }
+    - { name: ngx-validate, url: https://ng-turkey.github.io/ngx-validate, desc: Angular 表单校验错误提示, tags: [angular, 表单] }
+    - { name: ngx-datatable, url: https://swimlane.github.io/ngx-datatable, desc: Angular 数据表格组件, tags: [angular, 表格] }
+    - { name: ngx-charts, url: https://swimlane.github.io/ngx-charts/#/ngx-charts/bar-vertical, desc: Angular 声明式图表库, tags: [angular, 图表] }
+    - { name: AG Grid, url: https://www.ag-grid.com/angular-data-grid/getting-started, desc: 功能强大的企业级数据表格, tags: [表格, angular] }
+    - { name: Angular Flex-Layout Demos, url: https://tburleson-layouts-demos.firebaseapp.com/#/docs, desc: Angular Flex-Layout 布局示例, tags: [angular, 布局] }
+    - { name: ngnice, url: https://ngnice.com/docs/resources, desc: Angular 学习资源与组件库导航, tags: [angular, 导航] }
+    - { name: ngx-countdown, url: https://stackblitz.com/edit/ngx-countdown-demo?file=src%2Fapp%2Fapp.component.html, desc: Angular 倒计时组件在线示例, tags: [angular, 示例] }
+
+
+- group: CSS 与 UI 框架
+  items:
+    - { name: Tailwind CSS, url: https://tailwindcss.com, desc: 原子化 CSS 框架, tags: [css, tailwind] }
+    - { name: Bootstrap, url: https://getbootstrap.com/docs/5.3/getting-started/introduction, desc: 经典响应式 UI 框架, tags: [css, bootstrap] }
+    - { name: Material UI, url: https://mui.com, desc: React 版 Material Design 组件库, tags: [react, 组件库] }
+    - { name: daisyUI, url: https://daisyui.com, desc: 基于 Tailwind 的组件类库, tags: [tailwind, 组件库] }
+
+- group: jQuery 与经典插件
+  items:
+    - { name: jQuery, url: https://jquery.com, desc: 经典 DOM 操作库, tags: [jquery, 经典] }
+    - { name: DataTables, url: https://datatables.net, desc: jQuery 表格增强插件，支持分页排序搜索, tags: [jquery, 表格] }
+    - { name: Select2, url: https://select2.org, desc: jQuery 下拉选择增强插件, tags: [jquery, 表单] }
+    - { name: bootstrap-datepicker, url: https://bootstrap-datepicker.readthedocs.io/en/stable, desc: Bootstrap 风格日期选择器, tags: [jquery, 日期] }
+    - { name: timeago, url: https://timeago.yarp.com, desc: jQuery 插件，把时间戳显示为“几分钟前”, tags: [jquery, 时间] }
+    - { name: nice validator, url: https://validator.niceue.com/index.html, desc: 简单智能的 jQuery 表单验证插件, tags: [jquery, 表单] }
+    - { name: SweetAlert2, url: https://sweetalert2.github.io, desc: 美观的弹窗与确认框, tags: [弹窗, 开源] }
+
+- group: 图表、日历与编辑器
+  items:
+    - { name: ECharts, url: https://echarts.apache.org/handbook/zh/get-started, desc: Apache 开源可视化图表库, tags: [图表, 中文] }
+    - { name: ApexCharts, url: https://apexcharts.com, desc: 现代化交互式 SVG 图表库, tags: [图表, 开源] }
+    - { name: FullCalendar, url: https://fullcalendar.io, desc: 功能完整的日程日历组件, tags: [日历, 开源] }
+    - { name: wangEditor, url: https://www.wangeditor.com, desc: 轻量级开源 Web 富文本编辑器, tags: [编辑器, 中文] }
+    - { name: md-editor-v3, url: https://imzbf.github.io/md-editor-v3/en-US/index, desc: Vue/React 的 Markdown 编辑器组件, tags: [编辑器, markdown] }
+    - { name: 地图组件文档, url: https://map.heifahaizei.com/doc, desc: 前端地图相关组件文档, tags: [地图, 中文] }
+
