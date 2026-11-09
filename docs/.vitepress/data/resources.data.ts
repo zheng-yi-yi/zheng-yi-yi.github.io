@@ -33,6 +33,7 @@ export { data }
 // 子分类（group）和卡片的顺序 = YAML 文件里的书写顺序
 const categoryOrder: { file: string; title: string; icon: string }[] = [
   { file: 'dev-tools', title: '开发工具', icon: 'wrench' },
+  { file: 'learning', title: '学习与面试', icon: 'book-open' },
   { file: 'ai-tools', title: 'AI 工具', icon: 'bot' },
   { file: 'data-viz', title: '数据可视化', icon: 'chart-column-increasing' },
   { file: 'design', title: '设计', icon: 'palette' },

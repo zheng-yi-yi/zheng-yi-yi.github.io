@@ -1,0 +1,45 @@
+# 学习与面试
+- group: 学习路线 & 速查表
+  items:
+    - { name: Roadmap.sh, url: https://roadmap.sh, desc: 社区维护的各技术方向学习路线图, tags: [路线, 免费] }
+    - { name: Awesome Cheatsheets, url: https://lecoupa.github.io/awesome-cheatsheets, desc: 主流语言、框架与工具的速查表合集, tags: [速查, 开源] }
+
+- group: 编程入门 & 在线学习
+  items:
+    - { name: Codecademy, url: https://www.codecademy.com/learn, desc: 交互式编程学习平台，覆盖 AI、数据、网络安全等方向, tags: [学习, 免费额度] }
+    - { name: Exercism, url: https://exercism.org, desc: 支持 85 种编程语言的练习与导师辅导平台，完全免费, tags: [练习, 免费] }
+    - { name: 廖雪峰的官方网站, url: https://liaoxuefeng.com, desc: 中文原创精品教程，涵盖 Java、Python、JS、Git 等, tags: [教程, 中文] }
+    - { name: Hello 算法, url: https://www.hello-algo.com, desc: 动画图解、一键运行的数据结构与算法入门教程, tags: [算法, 中文] }
+    - { name: 代码随想录, url: https://programmercarl.com, desc: 全网最全算法刷题学习路线，图文 + 视频讲解, tags: [算法, 中文] }
+
+- group: 刷题 & 竞赛
+  items:
+    - { name: LeetCode, url: https://leetcode.cn, desc: 算法面试刷题首选，题库丰富、面经齐全, tags: [刷题, 面试] }
+    - { name: 洛谷, url: https://www.luogu.com.cn, desc: 国内最大算法竞赛平台，OI/ICPC 题库, tags: [竞赛, 中文] }
+    - { name: PTA, url: https://pintia.cn/problem-sets/dashboard, desc: 拼题 A，高校程序设计课与考试常用平台, tags: [竞赛, 中文] }
+    - { name: Codeforces, url: https://codeforces.com, desc: 全球顶级算法竞赛平台，定期举办 Rated 比赛, tags: [竞赛, 英文] }
+
+- group: 算法可视化
+  items:
+    - { name: VisuAlgo, url: https://visualgo.net/zh, desc: 动画演示数据结构与算法执行过程，支持中文, tags: [可视化, 免费] }
+    - { name: Algorithm Visualizer, url: https://algorithm-visualizer.org, desc: 在线编写并可视化算法执行轨迹, tags: [可视化, 开源] }
+    - { name: Data Structure Visualizations, url: https://www.cs.usfca.edu/~galles/visualization/Algorithms.html, desc: 旧金山大学出品的数据结构可视化演示, tags: [可视化, 免费] }
+
+- group: 面试备战
+  items:
+    - { name: 面试指南 TOP, url: https://top.interviewguide.cn, desc: 大厂面试题库与高频考点导航, tags: [面试, 中文] }
+    - { name: 开发者客栈 Wiki, url: https://www.developers.pub/wiki/1002310, desc: 开发者客栈面试知识体系 Wiki, tags: [面试, 中文] }
+    - { name: Java 面试小抄, url: https://www.javalearn.cn, desc: Java 方向高频面试题速查手册, tags: [面试, Java] }
+    - { name: Waking-Up, url: https://github.com/wolverinn/Waking-Up, desc: 计算机基础（网络/OS/DB）面试题整理, tags: [面试, 开源] }
+    - { name: 语雀面经合集, url: "https://www.yuque.com/zeovo-10k9s/lqwlrb/wwaqom2bv90lqloi?singleDoc=", desc: 语雀整理的大厂面经合集文档, tags: [面试, 面经] }
+    - { name: 路人张的面试笔记, url: https://www.mianshi.online, desc: 覆盖 Java、计算机基础、数据库等高频面试题, tags: [面试, Java] }
+
+- group: 设计模式
+  items:
+    - { name: 图说设计模式, url: https://design-patterns.readthedocs.io/zh-cn/latest, desc: 图文 + 代码解析 23 种 GoF 设计模式（中文）, tags: [设计模式, 中文] }
+
+- group: 在线代码沙箱
+  items:
+    - { name: CodePen, url: https://codepen.io, desc: 前端在线代码编辑与效果预览社区, tags: [前端, 沙箱] }
+    - { name: CodeSandbox, url: https://codesandbox.io, desc: 支持主流框架的云端代码沙箱与协作, tags: [沙箱, 免费额度] }
+    - { name: JSFiddle, url: https://jsfiddle.net, desc: 轻量 HTML/CSS/JS 在线调试与分享工具, tags: [前端, 沙箱] }

@@ -17,11 +17,9 @@
     - { name: MDN, url: https://developer.mozilla.org, desc: Web 标准权威文档, tags: [前端, 文档] }
     - { name: DevDocs, url: https://devdocs.io, desc: 聚合多种语言与框架的离线文档, tags: [文档, 免费] }
     - { name: Can I use, url: https://caniuse.com, desc: 查询浏览器特性兼容性, tags: [前端, 兼容性] }
-    - { name: Roadmap.sh, url: https://roadmap.sh, desc: 各技术方向的学习路线图, tags: [学习, 路线] }
     - { name: Explain Shell, url: https://explainshell.com, desc: 逐段解释 Shell 命令, tags: [shell, 免费] }
     - { name: TLDR Pages, url: https://tldr.sh, desc: 命令行工具的简明用法示例, tags: [shell, 速查] }
     - { name: Refactoring Guru, url: https://refactoring.guru, desc: 设计模式与重构图解, tags: [设计模式, 学习] }
-    - { name: Visualgo, url: https://visualgo.net, desc: 数据结构与算法可视化, tags: [算法, 学习] }
 - group: 部署与运维
   items:
     - { name: Vercel, url: https://vercel.com, desc: 前端与全栈应用托管, tags: [部署, 免费额度] }
